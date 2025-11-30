@@ -99,4 +99,3 @@ All acceptance criteria met: ✅ / ⏳
 - [ ] Documentation updated (if needed)
 - [ ] No console warnings or errors
 - [ ] Commit messages are clear
-- [ ] PR title follows convention (feat:, fix:, refactor:, etc.)

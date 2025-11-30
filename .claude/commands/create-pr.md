@@ -140,10 +140,9 @@ git push -u origin $(git branch --show-current)
 gh pr create --title "[TITLE]" --body "[BODY]" --fill
 ```
 
-For title, use:
-- Format: `[TYPE] Brief description`
-- Types: `feat:`, `fix:`, `refactor:`, `docs:`, `infra:`, `test:`
-- Example: `feat: Add user authentication endpoint`
+For title, use a brief description of the changes, then more details in the body. If we are closing
+a Github or Linear issue, preface the title with the issue number so it can be linked back to the
+correct issue tracker (e.g. `#123`).
 
 The `--fill` flag will use commit messages and branch info to enhance the PR.
 
@@ -176,7 +175,7 @@ Next steps:
 ❌ Cannot create PR from main/master branch.
 
 Please create a feature branch first:
-git checkout -b feature/your-feature-name
+git checkout -b kcrane/feature-description-slug
 ```
 
 ### If no commits to PR

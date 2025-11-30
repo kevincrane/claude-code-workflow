@@ -24,6 +24,16 @@ assignees: ''
 - [ ]
 - [ ]
 
+
+## Acceptance Criteria
+<!-- How will we verify this infrastructure change is successful? -->
+- [ ] Infrastructure deployed successfully
+- [ ] All services operational
+- [ ] Monitoring/alerts configured
+- [ ] Documentation updated
+- [ ]
+
+
 ## Rollout Plan
 <!-- How will this be deployed? Any migration steps? -->
 1.
@@ -33,14 +43,6 @@ assignees: ''
 ## Rollback Plan
 <!-- How to revert if something goes wrong -->
 
-
-## Acceptance Criteria
-<!-- How will we verify this infrastructure change is successful? -->
-- [ ] Infrastructure deployed successfully
-- [ ] All services operational
-- [ ] Monitoring/alerts configured
-- [ ] Documentation updated
-- [ ]
 
 ## Impact & Dependencies
 <!-- What systems/services are affected? What depends on this? -->

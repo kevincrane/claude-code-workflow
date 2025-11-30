@@ -141,6 +141,9 @@ void shouldProcessPaymentSuccessfully() {
 
 ### Working with IMPLEMENTATION_PLAN.md
 
+When working in a git branch, always use the format `kcrane/feature-description-slug`; this slug should
+typically not exceed 5 words in length, but don't feel limited if you need more to properly describe it.
+
 #### Update Status as You Progress
 
 When you start a stage:
@@ -178,18 +181,17 @@ Always check:
 Follow conventional commit format:
 
 ```bash
-feat: add user authentication endpoint
+Github #123: Add user authentication endpoint
 
 - Implement JWT token generation
 - Add login route with validation
 - Include refresh token logic
 
 Tests: 95% coverage on auth flow
-Closes #123
 ```
 
 ```bash
-fix: correct date formatting in payment logs
+Github #456: correct date formatting in payment logs
 
 The payment processor was logging dates in local timezone
 instead of UTC, causing confusion in multi-region deployments.
@@ -197,19 +199,16 @@ instead of UTC, causing confusion in multi-region deployments.
 Changed to UTC formatting throughout.
 
 Tests: Added timezone-specific test cases
-Fixes #456
 ```
 
 ```bash
-refactor: extract payment validation into separate service
+Github #789: extract payment validation into separate service
 
 Moved validation logic from PaymentProcessor to new
 PaymentValidator class for better separation of concerns
 and easier testing.
 
 All existing tests still pass. No behavior changes.
-
-Related to #789
 ```
 
 ### When You're Stuck

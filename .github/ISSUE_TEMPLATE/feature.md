@@ -10,18 +10,19 @@ assignees: ''
 <!-- What are we trying to achieve? What problem does this solve? -->
 
 
-## Acceptance Criteria
-<!-- Clear, testable conditions that define when this feature is complete -->
-- [ ]
-- [ ]
-- [ ]
-
 ## Context & Background
 <!-- Why is this needed? What's the user story? Any relevant background information? -->
 
 
 ## Requirements & Constraints
 <!-- Technical requirements, performance needs, compatibility concerns, etc. -->
+
+
+## Acceptance Criteria
+<!-- Clear, testable conditions that define when this feature is complete -->
+- [ ]
+- [ ]
+- [ ]
 
 
 ## Dependencies
